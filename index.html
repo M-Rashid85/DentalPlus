@@ -9,8 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/fakeLoader.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fakeLoader.css">
+    
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
@@ -23,7 +24,7 @@
 <body>
 
     <!-- header section start -->
-  <div class="fakeLoader"></div>
+  <!-- <div class="fakeLoader"></div> -->
 
     <header class="topMenu">
         <div class="container">
@@ -209,7 +210,8 @@
                     <div class="col-xl-4">
                         <div class="card">
                             <div class="doctorImg">
-                                <img src="image/doc1.jpg" alt="doc" class="wow fadeInUp data-wow-duration="2s" img-fluid
+                                <img src="image/doc1.jpg" alt="doc" class="wow fadeInUp data-wow-duration=" 2s"
+                                    data-wow-delay=".5s" img-fluid
                                     w-100">
                                 <i class=" facebook fab fa-facebook-f"></i>
                                 <i class="twitter fab fa-twitter"></i>
@@ -223,7 +225,7 @@
                         <div class="card">
                             <div class="doctorImg">
                                 <img src="image/doc2.jpg" alt="doc" class="wow fadeInUp
-                                    data-wow-duration=" 2s" img-fluid w-100 ">
+                                    data-wow-duration=" 2s" data-wow-delay="1s" img-fluid w-100 ">
                                 <i class=" facebook fab fa-facebook-f"></i>
                                 <i class="twitter fab fa-twitter"></i>
                                 <i class="google fab fa-google-plus-g"></i>
@@ -236,7 +238,7 @@
                         <div class="card">
                             <div class="doctorImg">
                                 <img src="image/doc3.jpg" alt="doc" class="wow fadeInUp
-                                    data-wow-duration=" 2s" img-fluid w-100">
+                                    data-wow-duration=" 2s" data-wow-delay="1.5s" img-fluid w-100">
                                 <i class=" facebook fab fa-facebook-f"></i>
                                 <i class="twitter fab fa-twitter"></i>
                                 <i class="google fab fa-google-plus-g"></i>
@@ -252,7 +254,7 @@
                         <div class="card">
                             <div class="doctorImg">
                                 <img src="image/doc4.jpg" alt="doc" class="wow fadeInUp
-                                    data-wow-duration=" 2s" img-fluid w-100">
+                                    data-wow-duration=" 2s" data-wow-delay="2s" img-fluid w-100">
                                 <i class=" facebook fab fa-facebook-f"></i>
                                 <i class="twitter fab fa-twitter"></i>
                                 <i class="google fab fa-google-plus-g"></i>
@@ -265,7 +267,7 @@
                         <div class="card">
                             <div class="doctorImg">
                                 <img src="image/doc5.jpg" alt="doc" class="wow fadeInUp
-                                    data-wow-duration=" 2s" img-fluid w-100">
+                                    data-wow-duration=" 2s" data-wow-delay="2.5s" img-fluid w-100">
                                 <i class=" facebook fab fa-facebook-f"></i>
                                 <i class="twitter fab fa-twitter"></i>
                                 <i class="google fab fa-google-plus-g"></i>
@@ -278,7 +280,7 @@
                         <div class="card">
                             <div class="doctorImg">
                                 <img src="image/doc6.jpg" alt="doc" class="wow fadeInUp
-                                    data-wow-duration=" 2s" img-fluid w-100">
+                                    data-wow-duration=" 2s" data-wow-delay="3s" img-fluid w-100">
                                 <i class=" facebook fab fa-facebook-f"></i>
                                 <i class="twitter fab fa-twitter"></i>
                                 <i class="google fab fa-google-plus-g"></i>
@@ -675,13 +677,13 @@
     <script src="js/jquery.nicescroll.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/fakeLoader.min.js"></script>
-    <script>
+    <!-- <script>
        $.fakeLoader({
            	timeToHide:1200,
             bgColor:"#00cce1",
             spinner:"spinner3",
        });
-    </script>
+    </script> -->
     <script>
         $("body").niceScroll({
         cursorcolor:"#00cce1",
@@ -689,7 +691,7 @@
         });
         new WOW().init();
     </script>
-     <div class="fakeLoader"></div>
+     <!-- <div class="fakeLoader"></div> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
